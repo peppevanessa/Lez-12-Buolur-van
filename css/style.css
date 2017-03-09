@@ -37,7 +37,7 @@ img{
   float: right;
 }
 /*****************MAIN********************/
-.logo h1{
+h1{
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
@@ -45,11 +45,16 @@ img{
   letter-spacing: 0.1em;
   margin: 64px 0 20px 0;
 }
-.logo p{
+p{
   display: inline-block;
+  text-align: center;
   font-size: 12px;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-
-
+}
+img{
+  width: 100%;
+}
+.darck-places-text{
+  position: absolute;
 }
