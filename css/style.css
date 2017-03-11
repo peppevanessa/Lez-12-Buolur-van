@@ -1,60 +1,111 @@
 html {
-  font-size: 12px;
+  font-size: 14px;
 }
 body{
-  font-family: helvetica, serif;
+  font-family: helvetica, sans-serif;
+  font-size: 1rem;
 }
-header{
-  height: 7rem;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid grey;
-}
-li{
-  display: inline-block;
-  margin-right: 40px;
-  font-size: 14px;
-  padding-top: 6px;
-}
-a{
-  color: black;
-}
-a:hover{
-  color: red;
-  text-decoration: none;
-}
-ul{
-  display: flex;
-  justify-content: center;
-}
-img{
-  width: 40%;
-}
-.cafe img{
-  float: left;
-}
-.lens img{
-  float: right;
-}
-/*****************MAIN********************/
+
+/**
+* ------- TYPO -------
+**/
 h1{
-  text-align: center;
-  font-family: sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.571rem;
   letter-spacing: 0.1em;
-  margin: 64px 0 20px 0;
+  margin: 65px 0 30px 0;
+  text-transform: uppercase;
 }
-p{
+h2{
+  font-size: 2.571rem;
+  font-family: georgia, serif;
+  font-weight: bold;
+  margin: 15px 0;
+}
+h3{
   display: inline-block;
-  text-align: center;
-  font-size: 12px;
+  font-size: 0.857rem;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  text-transform: uppercase;
+  padding: 11px 8px 8px 8px;
+  margin: 15px 0;
 }
-img{
-  width: 100%;
+h4{
+  display: block;
+  font-size: 0.857rem;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 15px 0;
 }
+
+h1 + h3,
+h3 + h2,
+h2 + h3,
+h3 + h4{
+  margin-top: 0;
+}
+
+
+/**
+* ------- HEADER -------
+**/
+header{
+  border-bottom: 1px solid grey;
+  }
+  .lens img,
+  .cafe img{
+    height: 1.71rem;
+  }
+  .header-row{
+    display: flex;
+    align-items: center;
+  }
+  header ul{
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    font-family: georgia, serif;
+    font-size: 1.142rem;
+  }
+  header li{
+    display: inline-block;
+  }
+  header li a{
+    display: inline-block;
+    padding: 35px 20px;
+  }
+  header a{
+    color: black;
+  }
+  header a:hover{
+    color: red;
+    text-decoration: none;
+  }
+
+
+/**
+* ------- MAIN -------
+**/
+
 .darck-places-text{
   position: absolute;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** FINE **/
